@@ -1,6 +1,4 @@
 
-import os
-
 from flask import Blueprint, jsonify, request
 from flasgger import swag_from
 from src.repositories.employee_repository import EmployeeRepository
@@ -11,14 +9,14 @@ employee_repo = EmployeeRepository()
 
 @employee_blueprint.get('/')
 @swag_from('../docs/list_employees.yml')
-def get_animals():
+def get_employees():
     employees = employee_repo.get_all()
     return jsonify({'data': employees}), 200
 
 
 @employee_blueprint.get('/<int:id>')
 @swag_from('../docs/get_employee.yml')
-def get_animals_by_id(id):
+def get_employees_by_id(id):
     employee = employee_repo.get_by_id(id)
     if employee is None:
         return jsonify({'error': 'Employee not found'})
@@ -27,7 +25,7 @@ def get_animals_by_id(id):
 
 @employee_blueprint.post('/')
 @swag_from('../docs/create_employee.yml')
-def create_animal():
+def create_employee():
     new_employee = request.json
     if not all(key in new_employee for key in ('id', 'name', 'email', 'phone_number', 'email', 'role', 'schedule')):
         return jsonify({'error': 'Missing parameter'}), 400
@@ -37,18 +35,18 @@ def create_animal():
 
 @employee_blueprint.put('/<int:id>')
 @swag_from('../docs/edit_employee.yml')
-def update_animal(id):
+def update_employee(id):
     data = request.json
     if not all(key in data for key in ('name', 'species', 'age')):
         return jsonify({'error': 'Missing data'}), 400
-    animal = employee_repo.update(id, data)
-    if animal is None:
+    employee = employee_repo.update(id, data)
+    if employee is None:
         return jsonify({'error': 'Employee not found'}), 404
-    return jsonify({"message": "Animal updated", "data": animal})
+    return jsonify({"message": "Employee updated", "data": employee})
 
 
 @employee_blueprint.delete('/<int:id>')
 @swag_from('../docs/delete_employee.yml')
-def delete_animal(id):
+def delete_employee(id):
     employee_repo.delete(id)
     return '', 204
