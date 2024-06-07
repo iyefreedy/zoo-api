@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Elephant",
+        "species": "African Elephant",
+        "age": 8
+    },
+    {
+        "id": 2,
+        "name": "Tiger",
+        "species": "Bengal Tiger",
+        "age": 8
+    },
+    {
+        "id": 3,
+        "name": "Giraffe",
+        "species": "Rothschild Giraffe",
+        "age": 12
+    },
+    {
+        "id": 4,
+        "name": "Zebra",
+        "species": "Plains Zebra",
+        "age": 6
+    },
+    {
+        "id": 6,
+        "name": "Pyro",
+        "species": "Phoenix",
+        "age": 700
+    }
+]

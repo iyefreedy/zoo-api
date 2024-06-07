@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone_number": "+1-555-1234",
+        "role": "Veterinarian",
+        "schedule": "Mon-Fri 9am-5pm"
+    },
+    {
+        "id": 3,
+        "name": "Carol Davis",
+        "email": "carol.davis@example.com",
+        "phone_number": "+1-555-8765",
+        "role": "Feeder",
+        "schedule": "Tue-Sat 6am-2pm"
+    },
+    {
+        "id": 4,
+        "name": "Dave Wilson",
+        "email": "dave.wilson@example.com",
+        "phone_number": "+1-555-4321",
+        "role": "Maintenance",
+        "schedule": "Mon-Fri 8am-4pm"
+    },
+    {
+        "id": 5,
+        "name": "Eve Thompson",
+        "email": "eve.thompson@example.com",
+        "phone_number": "+1-555-6789",
+        "role": "Manager",
+        "schedule": "Mon-Fri 9am-5pm"
+    }
+]
