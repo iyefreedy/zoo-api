@@ -1,0 +1,37 @@
+tags:
+  - Animals
+
+parameters:
+  - name: id
+    type: integer
+    in: path
+    required: True
+    minimum: 1
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Animal
+      required:
+        - name
+        - age
+        - species
+        - gender
+        - special_requirements
+      properties:
+        name:
+          type: string
+          description: Animal name
+        age:
+          type: number
+          description: Animal age
+        species:
+          type: string
+          description: Species or animal type
+        special_requirements:
+          type: string
+          description: animal special treatments or habitats
+        
+responses:
+  200:
+    description: Animal updated

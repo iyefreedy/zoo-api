@@ -1,0 +1,35 @@
+tags:
+  - Animals
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Animal
+      required:
+        - id
+        - name
+        - age
+        - species
+        - gender
+        - special_requirements
+      properties:
+        id:
+          type: number
+          description: Id of animal
+        name:
+          type: string
+          description: Animal name
+        age:
+          type: number
+          description: Animal age
+        species:
+          type: string
+          description: Species or animal type
+        special_requirements:
+          type: string
+          description: animal special treatments or habitats
+        
+responses:
+  201:
+    description: Animal created

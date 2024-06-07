@@ -1,0 +1,39 @@
+tags:
+  - Employees
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Employees
+      required:
+        - id
+        - name
+        - email
+        - phone_number
+        - role
+        - schedule
+
+      properties:
+        id:
+          type: number
+          description: Id of employee
+        name:
+          type: string
+          description: Employee name
+        email:
+          type: string
+          description: Email
+        phone_number:
+          type: string
+          description: Phone number
+        role:
+          type: string
+          description: Role
+        schedule:
+          type: string
+          description: Employee schedule
+        
+responses:
+  201:
+    description: Employee created
