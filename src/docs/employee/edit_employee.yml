@@ -1,13 +1,17 @@
 tags:
   - Employees
 parameters:
+  - name: id
+    type: integer
+    in: path
+    required: True
+    minimum: 1
   - name: body
     in: body
     required: true
     schema:
       id: Employees
       required:
-        - id
         - name
         - email
         - phone_number
@@ -15,9 +19,6 @@ parameters:
         - schedule
 
       properties:
-        id:
-          type: number
-          description: Id of employee
         name:
           type: string
           description: Employee name
@@ -35,5 +36,5 @@ parameters:
           description: Employee schedule
         
 responses:
-  201:
-    description: Employee created
+  200:
+    description: Employee updated

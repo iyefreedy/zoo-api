@@ -1,0 +1,11 @@
+tags:
+  - Feedings schedule
+parameters:
+  - name: id
+    type: integer
+    in: path
+    required: True
+    minimum: 1
+responses:
+  204:
+    description: No content

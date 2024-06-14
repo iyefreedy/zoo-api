@@ -1,0 +1,22 @@
+tags:
+  - Enclosures
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Enclosure
+      required:
+        - name
+        - description
+      properties:
+        name:
+          type: string
+          description: Enclosure name
+        description:
+          type: string
+          description: Enclosure description
+        
+responses:
+  201:
+    description: Enclosure created

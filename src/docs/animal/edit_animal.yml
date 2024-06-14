@@ -13,18 +13,17 @@ parameters:
     schema:
       id: Animal
       required:
-        - name
         - age
         - species
         - gender
         - special_requirements
       properties:
-        name:
-          type: string
-          description: Animal name
         age:
           type: number
           description: Animal age
+        gender:
+          type: string
+          description: Animal gender
         species:
           type: string
           description: Species or animal type

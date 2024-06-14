@@ -1,0 +1,27 @@
+tags:
+  - Enclosures
+parameters:
+  - name: id
+    type: integer
+    in: path
+    required: True
+    minimum: 1
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Enclosure
+      required:
+        - name
+        - description
+      properties:
+        name:
+          type: string
+          description: Enclosure name
+        description:
+          type: string
+          description: Enclosure description
+        
+responses:
+  200:
+    description: Feeding schedule updated

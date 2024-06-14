@@ -1,0 +1,30 @@
+tags:
+  - Feedings schedule
+parameters:
+  - name: body
+    in: body
+    required: true
+    schema:
+      id: Enclosure
+      required:
+        - animal_id
+        - enclosure_id
+        - feeding_time
+        - food_type
+      properties:
+        animal_id:
+          type: integer
+          description: Animal identifier
+        enclosure_id:
+          type: integer
+          description: Enclosure identifier
+        feeding_time:
+          type: string
+          description: Feeding time
+        food_type:
+          type: string
+          description: Food type
+        
+responses:
+  201:
+    description: Enclosure created

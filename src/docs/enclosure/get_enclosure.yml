@@ -1,0 +1,11 @@
+tags:
+  - Enclosures
+parameters:
+  - name: id
+    type: integer
+    in: path
+    required: True
+    minimum: 1
+responses:
+  200:
+    description: Data of enclosure

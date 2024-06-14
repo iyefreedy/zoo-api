@@ -1,11 +1,6 @@
 tags:
   - Employees
 parameters:
-  - name: id
-    type: integer
-    in: path
-    required: True
-    minimum: 1
   - name: body
     in: body
     required: true
@@ -23,7 +18,7 @@ parameters:
           type: string
           description: Employee name
         email:
-          type: number
+          type: string
           description: Email
         phone_number:
           type: string
@@ -36,5 +31,5 @@ parameters:
           description: Employee schedule
         
 responses:
-  200:
-    description: Employee updated
+  201:
+    description: Employee created

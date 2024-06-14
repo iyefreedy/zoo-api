@@ -7,19 +7,14 @@ parameters:
     schema:
       id: Animal
       required:
-        - id
-        - name
         - age
         - species
         - gender
         - special_requirements
       properties:
-        id:
-          type: number
-          description: Id of animal
-        name:
+        gender:
           type: string
-          description: Animal name
+          description: Animal gender
         age:
           type: number
           description: Animal age
@@ -33,3 +28,5 @@ parameters:
 responses:
   201:
     description: Animal created
+  400:
+    description: Missing parameter
