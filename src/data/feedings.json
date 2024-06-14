@@ -1,5 +1,12 @@
 [
     {
+        "id": 1,
+        "animal_id": 2,
+        "enclosure_id": 2,
+        "food_type": "Grass",
+        "feeding_time": "2024-06-08T09:00:00"
+    },
+    {
         "id": 2,
         "animal_id": 2,
         "enclosure_id": 2,

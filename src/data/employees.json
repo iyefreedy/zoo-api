@@ -1,5 +1,13 @@
 [
     {
+        "id": 1,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "phone": "098-765-4321",
+        "role": "Veterinarian",
+        "schedule": "Monday, Wednesday, Friday, 9am to 4pm"
+    },
+    {
         "id": 2,
         "name": "Jane Smith",
         "email": "jane.smith@example.com",

@@ -1,5 +1,12 @@
 [
     {
+        "id": 1,
+        "species": "Giraffe",
+        "age": 7,
+        "gender": "female",
+        "special_requirements": "Needs tall trees for grazing"
+    },
+    {
         "id": 2,
         "species": "Giraffe",
         "age": 7,
