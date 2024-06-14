@@ -10,4 +10,9 @@ config = Config().dev
 
 app.env = config.ENV
 
-app.register_blueprint(api, url_prefix='/api')
+app.register_blueprint(api)
+
+
+@app.errorhandler(404)
+def not_found(e):
+    return {'error': 'Resource not found'}, 404

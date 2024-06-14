@@ -1,10 +1,10 @@
-
 import os
+
 from src.repositories.repository import Repository
 
 
-class EmployeeRepository(Repository):
-    def __init__(self) -> None:
+class VisitorRepository(Repository):
+    def __init__(self):
         filepath = os.path.join(os.path.dirname(__file__),
-                                '../data/employees.json')
+                                '../data/visitors.json')
         super().__init__(filepath)
