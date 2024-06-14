@@ -7,5 +7,8 @@ name = "pypi"
 flask = "*"
 flasgger = "*"
 gunicorn = "*"
+pytest = "*"
 
 [dev-packages]
+pytest = "*"
+coverage = "*"
