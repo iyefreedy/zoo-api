@@ -1,0 +1,100 @@
+[
+    {
+        "id": 2,
+        "animal_id": 2,
+        "enclosure_id": 2,
+        "food_type": "Grass",
+        "feeding_time": "2024-06-08T09:00:00"
+    },
+    {
+        "id": 3,
+        "animal_id": 3,
+        "enclosure_id": 3,
+        "food_type": "Leaves",
+        "feeding_time": "2024-06-08T10:00:00"
+    },
+    {
+        "id": 4,
+        "animal_id": 4,
+        "enclosure_id": 4,
+        "food_type": "Grass",
+        "feeding_time": "2024-06-08T11:00:00"
+    },
+    {
+        "id": 5,
+        "animal_id": 5,
+        "enclosure_id": 5,
+        "food_type": "Fish",
+        "feeding_time": "2024-06-08T12:00:00"
+    },
+    {
+        "id": 6,
+        "animal_id": 6,
+        "enclosure_id": 6,
+        "food_type": "Vegetables",
+        "feeding_time": "2024-06-08T13:00:00"
+    },
+    {
+        "id": 7,
+        "animal_id": 7,
+        "enclosure_id": 7,
+        "food_type": "Bamboo",
+        "feeding_time": "2024-06-08T14:00:00"
+    },
+    {
+        "id": 8,
+        "animal_id": 8,
+        "enclosure_id": 8,
+        "food_type": "Meat",
+        "feeding_time": "2024-06-08T15:00:00"
+    },
+    {
+        "id": 9,
+        "animal_id": 9,
+        "enclosure_id": 9,
+        "food_type": "Fish",
+        "feeding_time": "2024-06-08T16:00:00"
+    },
+    {
+        "id": 10,
+        "animal_id": 10,
+        "enclosure_id": 10,
+        "food_type": "Algae",
+        "feeding_time": "2024-06-08T17:00:00"
+    },
+    {
+        "animal_id": "1",
+        "enclosure_id": "1",
+        "food_type": "Meat",
+        "feeding_time": "2024-06-13T10:00:00",
+        "id": 11
+    },
+    {
+        "animal_id": "1",
+        "enclosure_id": "1",
+        "food_type": "Meat",
+        "feeding_time": "2024-06-13T10:00:00",
+        "id": 12
+    },
+    {
+        "animal_id": "1",
+        "enclosure_id": "1",
+        "food_type": "Meat",
+        "feeding_time": "2024-06-13T10:00:00",
+        "id": 13
+    },
+    {
+        "animal_id": "1",
+        "enclosure_id": "1",
+        "food_type": "Meat",
+        "feeding_time": "2024-06-13T10:00:00",
+        "id": 14
+    },
+    {
+        "animal_id": "1",
+        "enclosure_id": "1",
+        "food_type": "Meat",
+        "feeding_time": "2024-06-13T10:00:00",
+        "id": 15
+    }
+]

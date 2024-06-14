@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Lion Enclosure",
+        "description": "A large area with secure fencing and rocks for climbing."
+    },
+    {
+        "id": 2,
+        "name": "Elephant Enclosure",
+        "description": "A spacious area with a pond and plenty of shade."
+    },
+    {
+        "id": 3,
+        "name": "Giraffe Enclosure",
+        "description": "Tall trees and ample space for roaming."
+    },
+    {
+        "id": 4,
+        "name": "Zebra Enclosure",
+        "description": "Open grasslands with plenty of space to run."
+    },
+    {
+        "id": 5,
+        "name": "Penguin Enclosure",
+        "description": "A cool environment with a large water pool."
+    },
+    {
+        "id": 6,
+        "name": "Kangaroo Enclosure",
+        "description": "A large area with open space for hopping."
+    },
+    {
+        "id": 7,
+        "name": "Panda Enclosure",
+        "description": "A cool, shaded area with bamboo."
+    },
+    {
+        "id": 8,
+        "name": "Tiger Enclosure",
+        "description": "A large area with secure fencing and water."
+    },
+    {
+        "id": 9,
+        "name": "Polar Bear Enclosure",
+        "description": "A cold environment with a water pool."
+    },
+    {
+        "id": 10,
+        "name": "Flamingo Enclosure",
+        "description": "A shallow water area with plenty of space."
+    }
+]

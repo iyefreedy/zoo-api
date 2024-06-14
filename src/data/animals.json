@@ -1,32 +1,478 @@
 [
     {
-        "id": 1,
-        "name": "Elephant",
-        "species": "African Elephant",
-        "age": 8
-    },
-    {
         "id": 2,
-        "name": "Tiger",
-        "species": "Bengal Tiger",
-        "age": 8
+        "species": "Giraffe",
+        "age": 7,
+        "gender": "female",
+        "special_requirements": "Needs tall trees for grazing"
     },
     {
         "id": 3,
-        "name": "Giraffe",
-        "species": "Rothschild Giraffe",
-        "age": 12
+        "species": "Giraffe",
+        "age": 7,
+        "gender": "female",
+        "special_requirements": "Needs tall trees for grazing"
     },
     {
         "id": 4,
-        "name": "Zebra",
-        "species": "Plains Zebra",
-        "age": 6
+        "species": "Zebra",
+        "age": 4,
+        "gender": "male",
+        "special_requirements": "Prefers open grasslands"
+    },
+    {
+        "id": 5,
+        "species": "Penguin",
+        "age": 3,
+        "gender": "female",
+        "special_requirements": "Needs a cool environment with a water pool"
     },
     {
         "id": 6,
-        "name": "Pyro",
-        "species": "Phoenix",
-        "age": 700
+        "species": "Kangaroo",
+        "age": 6,
+        "gender": "female",
+        "special_requirements": "Requires a large area to hop around"
+    },
+    {
+        "id": 7,
+        "species": "Panda",
+        "age": 8,
+        "gender": "male",
+        "special_requirements": "Needs bamboo and a cool environment"
+    },
+    {
+        "id": 8,
+        "species": "Tiger",
+        "age": 5,
+        "gender": "female",
+        "special_requirements": "Requires a large, secure enclosure with water"
+    },
+    {
+        "id": 9,
+        "species": "Polar Bear",
+        "age": 7,
+        "gender": "male",
+        "special_requirements": "Needs a cold environment with a water pool"
+    },
+    {
+        "id": 10,
+        "species": "Flamingo",
+        "age": 2,
+        "gender": "female",
+        "special_requirements": "Needs a shallow water area"
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 11
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 12
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 13
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 14
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 15
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 16
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 17
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 18
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 19
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 20
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 21
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 22
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 23
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 24
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 25
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 26
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 27
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 28
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 29
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 30
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 31
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 32
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 33
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 34
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 35
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 36
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 37
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 38
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 39
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 40
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 41
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 42
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 43
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 44
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 45
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 46
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 47
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 48
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 49
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 50
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 51
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 52
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 53
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 54
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 55
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 56
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 57
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 58
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 59
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 60
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 61
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 62
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 63
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 64
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 65
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 66
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 67
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 68
+    },
+    {
+        "species": "Tiger",
+        "age": 3,
+        "gender": "Male",
+        "special_requirements": "Large enclosure",
+        "id": 69
     }
 ]

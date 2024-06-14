@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "ticket_type": "Adult",
+        "event_type": "Regular",
+        "date": "2024-06-01",
+        "amount": 20.0
+    },
+    {
+        "id": 2,
+        "ticket_type": "Child",
+        "event_type": "Regular",
+        "date": "2024-06-01",
+        "amount": 10.0
+    },
+    {
+        "id": 3,
+        "ticket_type": "Adult",
+        "event_type": "Regular",
+        "date": "2024-06-02",
+        "amount": 20.0
+    }
+]

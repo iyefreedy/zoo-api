@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "ticket_type": "Adult",
+        "visit_date": "2024-06-01",
+        "feedback": "Excellent"
+    },
+    {
+        "id": 2,
+        "ticket_type": "Child",
+        "visit_date": "2024-06-01",
+        "feedback": "Good"
+    },
+    {
+        "id": 3,
+        "ticket_type": "Adult",
+        "visit_date": "2024-06-02",
+        "feedback": "Average"
+    }
+]
